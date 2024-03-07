@@ -18,8 +18,6 @@ https://github.com/rohinigudimetla/cs-665-assignment-3
 
 # Implementation Description
 
-For each assignment, please answer the following:
-
 - Using the strategy pattern allows for the company to switch strategies of email templates at runtime. If a new customer type needs to be added in the future, we can simply create a new strategy without changing the existing code. Each email strategy is implemented as a separate class that can be developed and tested independently.
 - The code is very simple to understand. Each email strategy has its own class. There are additional methods within the class that are exclusive to that type of customer.
 - By defining a common interface for all email sending strategies, we ensure that each specific strategy will implement this method. This means we avoid duplicating the send() method across different classes. Instead, each class provides its own implementation of send().

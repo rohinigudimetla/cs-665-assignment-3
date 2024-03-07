@@ -3,7 +3,8 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 03/06/2024
  * File Name: EmailSenderTest.java
- * Description: This is the main class. No significant output returned.
+ * Description: This is the test class for the different types. It has methods for testing the business, 
+ * returning, VIP, new, and frequent customer emails.
  */
 package edu.bu.met.cs665;
 

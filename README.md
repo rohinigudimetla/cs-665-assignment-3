@@ -7,7 +7,10 @@
 
 # Assignment Overview
 
-Please add a paragraph or two overviewing the objectives of the assignment.
+## Email Generation Application
+
+A company serves various customer segments, including Business, Returning, Frequent, New, and VIP.
+Using the Strategy pattern, the company can send emails to each type of customer without much modification required to customise the email template for each variety.
 
 # GitHub Repository Link:
 
@@ -17,13 +20,9 @@ https://github.com/rohinigudimetla/cs-665-assignment-3
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-  be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-  easy for others to read and maintain.
-- Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-  chosen.
+- Using the strategy pattern allows for the company to switch strategies of email templates at runtime. If a new customer type needs to be added in the future, we can simply create a new strategy without changing the existing code. Each email strategy is implemented as a separate class that can be developed and tested independently.
+- The code is very simple to understand. Each email strategy has its own class. There are additional methods within the class that are exclusive to that type of customer.
+- By defining a common interface for all email sending strategies, we ensure that each specific strategy will implement this method. This means we avoid duplicating the send() method across different classes. Instead, each class provides its own implementation of send().
 
 # Maven Commands
 

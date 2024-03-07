@@ -3,7 +3,8 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 03/06/2024
  * File Name: NewEmailStrategy.java
- * Description: This is the main class. No significant output returned.
+ * Description: This is the new user email class. The user is sent a welcome message,
+ * introduction to the company, and a first purchase offer.
  */
 
 

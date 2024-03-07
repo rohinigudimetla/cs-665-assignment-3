@@ -3,7 +3,8 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 03/06/2024
  * File Name: BusinessEmailStrategy.java
- * Description: This is the main class. No significant output returned.
+ * Description: This is the business user email class. Here, there is also a method to return the products and services offered by the company. 
+ * The email is sent to the business partners.
  */
 
 package edu.bu.met.cs665;

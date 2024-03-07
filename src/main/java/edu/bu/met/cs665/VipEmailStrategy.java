@@ -4,7 +4,8 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 03/06/2024
  * File Name: VipEmailStrategy.java
- * Description: This is the main class. No significant output returned.
+ * Description: This is vip user email class. For these users, the email is sent with the vip acknowledgement, 
+ * exclusive offers and early access to new products and services.
  */
 
 package edu.bu.met.cs665;

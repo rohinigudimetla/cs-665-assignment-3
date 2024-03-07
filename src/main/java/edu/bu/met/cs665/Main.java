@@ -1,9 +1,9 @@
 /**
- * Name: FIRST_NAME LAST_NAME
+ * Name: ROHINI GUDIMETLA
  * Course: CS-665 Software Designs & Patterns
- * Date: MM/DD/YYYY
+ * Date: 03/06/2024
  * File Name: Main.java
- * Description: Write a description for this class
+ * Description: This is main class. There is an example of sending an email to a VIP customer.
  */
 
 package edu.bu.met.cs665;

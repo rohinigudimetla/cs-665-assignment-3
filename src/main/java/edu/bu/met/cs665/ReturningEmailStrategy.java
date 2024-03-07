@@ -3,7 +3,8 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 03/06/2024
  * File Name: ReturningEmailStrategy.java
- * Description: This is the main class. No significant output returned.
+ * Description: This is the returning user class. For these users, the email is sent with the recommendations and special offers.
+ * They are also acknowledged for their previous purchases.
  */
 
 

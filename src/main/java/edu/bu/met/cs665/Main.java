@@ -22,17 +22,11 @@ public class Main {
    * However, please note that every assignment/final projects requires JUnit tests.
    */
   public static void main(String[] args) {
-    System.out.println("This is a test message from the Main class (Main.java file)");
-  }
-
-  /**
-   * This method performs XYZ and returns String.
-   *
-   * @return String
-   */
-  private String doIt() {
-    Person student = new Person("John", "Doe");
-    return student.getLastName() + ',' + student.getFirstName();
+    EmailSender emailSender = new EmailSender();
+    emailSender.setEmailStrategy(new VipEmailStrategy());
+    String emailContent = emailSender.sendEmail();
+    System.out.println("This is an example of sending an email to a VIP customer:");
+    System.out.println(emailContent);
   }
 
 }
